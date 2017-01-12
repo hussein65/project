@@ -1,0 +1,50 @@
+.stoplight{
+  display: inline-block;
+    margin-left: 50%;
+}
+
+.pole{
+  width: 50px;
+  height: 50px;
+  background-color:darkgrey;
+  margin: 0 auto;
+}
+
+
+.light-box{
+  background-color:darkgrey;
+  display:inline-block;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+  margin :8px;
+  box-shadow : 3px 5px;
+  background-image: url(https://www.transparenttextures.com/patterns/3px-tile.png);
+}
+
+.red{
+  background-color:red;
+}
+
+.yellow{
+background-color:yellow;
+}
+
+.green{
+background-color:green;
+}
+
+.red:hover{
+  box-shadow : 0 5px 15px red;
+}
+
+.yellow:hover{
+  box-shadow : 0 5px 15px yellow;
+}
+
+.green:hover{
+  box-shadow : 0 5px 15px yellow;
+}
